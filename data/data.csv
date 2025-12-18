@@ -1,0 +1,35 @@
+text,has_distortion,distortion_type,confidence
+
+"I failed one interview, so I will never get a good job",1,overgeneralization,high
+"I made one mistake in class, which means I am bad at this subject",1,overgeneralization,high
+"I missed the gym today, so I always quit everything",1,overgeneralization,high
+"I didn’t understand this topic today, so I’ll never understand it",1,overgeneralization,medium
+"I didn’t perform well once, so this career is not for me",1,overgeneralization,medium
+
+"If I mess up this presentation, my career will be ruined",1,catastrophizing,high
+"This small argument will destroy our relationship",1,catastrophizing,high
+"If I fail this exam, my life is over",1,catastrophizing,high
+"If this plan doesn’t work, everything will fall apart",1,catastrophizing,medium
+
+"They didn’t reply to my message, they must be angry with me",1,mind_reading,high
+"Everyone in the meeting thinks I’m incompetent",1,mind_reading,high
+"My manager looked serious, so she must be disappointed in me",1,mind_reading,medium
+"They didn’t laugh at my joke, so they think I’m boring",1,mind_reading,medium
+
+"I will definitely fail this interview",1,fortune_telling,high
+"Nothing good will come out of this effort",1,fortune_telling,high
+"This project is going to fail no matter what I do",1,fortune_telling,medium
+"I just know tomorrow will be a bad day",1,fortune_telling,medium
+
+"The meeting went badly because I spoke up",1,personalization,high
+"My friend seems upset, so I must have done something wrong",1,personalization,medium
+"The team missed the deadline because of me",1,personalization,medium
+
+"I should always be productive, otherwise I am wasting time",1,should_statements,high
+"I shouldn’t ever feel tired or unmotivated",1,should_statements,high
+"I must always meet everyone’s expectations",1,should_statements,medium
+
+"I didn’t do well on this test, so I need to study differently next time",0,none,high
+"I feel disappointed about today, but I can try again tomorrow",0,none,high
+"I failed this interview, but I learned what to improve",0,none,high
+"I am tired today, so I will rest and continue later",0,none,high
