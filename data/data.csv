@@ -1,35 +1,182 @@
-text,has_distortion,distortion_type,confidence
+text,has_distortion,distortion_type,confidence,distortion_group
 
-"I failed one interview, so I will never get a good job",1,overgeneralization,high
-"I made one mistake in class, which means I am bad at this subject",1,overgeneralization,high
-"I missed the gym today, so I always quit everything",1,overgeneralization,high
-"I didn’t understand this topic today, so I’ll never understand it",1,overgeneralization,medium
-"I didn’t perform well once, so this career is not for me",1,overgeneralization,medium
-
-"If I mess up this presentation, my career will be ruined",1,catastrophizing,high
-"This small argument will destroy our relationship",1,catastrophizing,high
-"If I fail this exam, my life is over",1,catastrophizing,high
-"If this plan doesn’t work, everything will fall apart",1,catastrophizing,medium
-
-"They didn’t reply to my message, they must be angry with me",1,mind_reading,high
-"Everyone in the meeting thinks I’m incompetent",1,mind_reading,high
-"My manager looked serious, so she must be disappointed in me",1,mind_reading,medium
-"They didn’t laugh at my joke, so they think I’m boring",1,mind_reading,medium
-
-"I will definitely fail this interview",1,fortune_telling,high
-"Nothing good will come out of this effort",1,fortune_telling,high
-"This project is going to fail no matter what I do",1,fortune_telling,medium
-"I just know tomorrow will be a bad day",1,fortune_telling,medium
-
-"The meeting went badly because I spoke up",1,personalization,high
-"My friend seems upset, so I must have done something wrong",1,personalization,medium
-"The team missed the deadline because of me",1,personalization,medium
-
-"I should always be productive, otherwise I am wasting time",1,should_statements,high
-"I shouldn’t ever feel tired or unmotivated",1,should_statements,high
-"I must always meet everyone’s expectations",1,should_statements,medium
-
-"I didn’t do well on this test, so I need to study differently next time",0,none,high
-"I feel disappointed about today, but I can try again tomorrow",0,none,high
-"I failed this interview, but I learned what to improve",0,none,high
-"I am tired today, so I will rest and continue later",0,none,high
+"I failed this task, so I’m not good at this kind of work",1,overgeneralization,high,negative_self_evaluation
+"I struggled once, which means I lack ability",1,overgeneralization,high,negative_self_evaluation
+"I made one wrong decision, so I’m bad at decisions",1,overgeneralization,high,negative_self_evaluation
+"I performed poorly today, so I’m not suited for this role",1,overgeneralization,high,negative_self_evaluation
+"I didn’t understand this concept, so I’m bad at learning",1,overgeneralization,medium,negative_self_evaluation
+"I missed one chance, so I won’t succeed here",1,overgeneralization,medium,negative_self_evaluation
+"I felt nervous once, so I’m bad under pressure",1,overgeneralization,medium,negative_self_evaluation
+"I made a mistake, which proves I’m careless",1,overgeneralization,medium,negative_self_evaluation
+"I failed an interview, so I won’t get good jobs",1,overgeneralization,high,negative_self_evaluation
+"I struggled this time, so this isn’t my strength",1,overgeneralization,medium,negative_self_evaluation
+"I didn’t speak well today, so I’m a poor communicator",1,overgeneralization,high,negative_self_evaluation
+"I messed this up, so I always mess things up",1,overgeneralization,high,negative_self_evaluation
+"I felt confused here, so I’m not smart enough",1,overgeneralization,medium,negative_self_evaluation
+"I failed once, so I’m not cut out for this field",1,overgeneralization,high,negative_self_evaluation
+"I didn’t do well here, so I won’t do well anywhere",1,overgeneralization,high,negative_self_evaluation
+"I struggled today, so I’m not capable",1,overgeneralization,medium,negative_self_evaluation
+"I made one error, so I’m unreliable",1,overgeneralization,medium,negative_self_evaluation
+"I wasn’t confident today, so I lack confidence in general",1,overgeneralization,medium,negative_self_evaluation
+"I didn’t succeed here, so success isn’t for me",1,overgeneralization,high,negative_self_evaluation
+"I performed badly once, so I’m bad at this overall",1,overgeneralization,high,negative_self_evaluation
+"If this goes wrong, everything will collapse",1,catastrophizing,high,future_prediction
+"This mistake will ruin my future",1,catastrophizing,high,future_prediction
+"If I fail here, my career is over",1,catastrophizing,high,future_prediction
+"This small issue will turn into a disaster",1,catastrophizing,high,future_prediction
+"If this doesn’t work, nothing will",1,catastrophizing,high,future_prediction
+"If I say the wrong thing, it will be terrible",1,catastrophizing,medium,future_prediction
+"This delay will cause serious damage",1,catastrophizing,medium,future_prediction
+"If I mess this up, I won’t recover",1,catastrophizing,medium,future_prediction
+"This problem is far worse than I can handle",1,catastrophizing,medium,future_prediction
+"If I fail this test, my life is over",1,catastrophizing,high,future_prediction
+"If this plan fails, everything falls apart",1,catastrophizing,high,future_prediction
+"This mistake could destroy everything",1,catastrophizing,high,future_prediction
+"If this meeting goes badly, it’s a disaster",1,catastrophizing,medium,future_prediction
+"This outcome will be catastrophic",1,catastrophizing,medium,future_prediction
+"If I lose this opportunity, I’m done",1,catastrophizing,high,future_prediction
+"This will lead to serious consequences",1,catastrophizing,medium,future_prediction
+"If I don’t succeed here, it’s hopeless",1,catastrophizing,medium,future_prediction
+"This situation is unbearable",1,catastrophizing,medium,future_prediction
+"If this breaks, everything breaks",1,catastrophizing,high,future_prediction
+"This is the worst possible outcome",1,catastrophizing,medium,future_prediction
+"They didn’t reply, so they’re upset with me",1,mind_reading,high,social_inference
+"Everyone thinks I’m incompetent",1,mind_reading,high,social_inference
+"My manager looked serious, so she’s disappointed",1,mind_reading,high,social_inference
+"They didn’t react, so they disliked my idea",1,mind_reading,medium,social_inference
+"They avoided me, so they don’t like me",1,mind_reading,medium,social_inference
+"They stopped talking, so they’re judging me",1,mind_reading,medium,social_inference
+"They didn’t smile, so they were unimpressed",1,mind_reading,medium,social_inference
+"They were quiet, so they disagree",1,mind_reading,medium,social_inference
+"They didn’t praise me, so they weren’t impressed",1,mind_reading,medium,social_inference
+"They didn’t invite me, so they don’t value me",1,mind_reading,high,social_inference
+"They responded briefly, so they’re annoyed",1,mind_reading,medium,social_inference
+"They didn’t ask questions, so they think it’s bad",1,mind_reading,medium,social_inference
+"They looked away, so they disapprove",1,mind_reading,medium,social_inference
+"They didn’t follow up, so they lost interest",1,mind_reading,medium,social_inference
+"They paused, so they judged me",1,mind_reading,medium,social_inference
+"They didn’t agree verbally, so they disagree",1,mind_reading,medium,social_inference
+"They didn’t comment, so they disliked it",1,mind_reading,medium,social_inference
+"They seemed neutral, so they weren’t impressed",1,mind_reading,medium,social_inference
+"They were quiet after I spoke, so they disapproved",1,mind_reading,medium,social_inference
+"They didn’t respond warmly, so they’re unhappy",1,mind_reading,medium,social_inference
+"I will fail this interview",1,fortune_telling,high,future_prediction
+"This project will not succeed",1,fortune_telling,high,future_prediction
+"Nothing good will come from this",1,fortune_telling,high,future_prediction
+"This effort will be pointless",1,fortune_telling,medium,future_prediction
+"Tomorrow will be a bad day",1,fortune_telling,medium,future_prediction
+"This plan won’t work",1,fortune_telling,medium,future_prediction
+"I know this will end badly",1,fortune_telling,high,future_prediction
+"This meeting will be a waste",1,fortune_telling,medium,future_prediction
+"I’ll probably mess this up",1,fortune_telling,medium,future_prediction
+"This won’t lead anywhere",1,fortune_telling,medium,future_prediction
+"This attempt will fail",1,fortune_telling,high,future_prediction
+"I won’t be able to do this",1,fortune_telling,medium,future_prediction
+"This won’t turn out well",1,fortune_telling,medium,future_prediction
+"I expect this to fail",1,fortune_telling,medium,future_prediction
+"This situation will go wrong",1,fortune_telling,medium,future_prediction
+"I won’t succeed here",1,fortune_telling,medium,future_prediction
+"This effort won’t pay off",1,fortune_telling,medium,future_prediction
+"This is bound to fail",1,fortune_telling,high,future_prediction
+"I don’t see this working",1,fortune_telling,medium,future_prediction
+"This will end badly",1,fortune_telling,high,future_prediction
+"The meeting failed because of me",1,personalization,high,social_inference
+"My friend is quiet because I upset them",1,personalization,high,social_inference
+"The delay happened due to me",1,personalization,medium,social_inference
+"The group felt awkward because of me",1,personalization,medium,social_inference
+"The project slowed because I wasn’t good enough",1,personalization,medium,social_inference
+"My comment caused the tension",1,personalization,medium,social_inference
+"The result was poor because I was involved",1,personalization,medium,social_inference
+"The discussion went badly due to something I said",1,personalization,medium,social_inference
+"My manager’s mood changed because of me",1,personalization,medium,social_inference
+"The client is unhappy because of my mistake",1,personalization,high,social_inference
+"The failure is my fault",1,personalization,high,social_inference
+"The issue happened because I wasn’t careful",1,personalization,medium,social_inference
+"The team missed the goal because of me",1,personalization,high,social_inference
+"The silence is because of my comment",1,personalization,medium,social_inference
+"The tension started after I spoke",1,personalization,medium,social_inference
+"The outcome is on me",1,personalization,medium,social_inference
+"The poor result reflects my involvement",1,personalization,medium,social_inference
+"The setback happened because I failed",1,personalization,medium,social_inference
+"The problem exists because of me",1,personalization,medium,social_inference
+"I caused the failure",1,personalization,high,social_inference
+"I should always be productive",1,should_statements,high,rigid_rules
+"I must never make mistakes",1,should_statements,high,rigid_rules
+"I should handle everything myself",1,should_statements,high,rigid_rules
+"I must meet everyone’s expectations",1,should_statements,high,rigid_rules
+"I shouldn’t feel tired",1,should_statements,medium,rigid_rules
+"I should be better by now",1,should_statements,medium,rigid_rules
+"I must stay motivated all the time",1,should_statements,medium,rigid_rules
+"I shouldn’t need help",1,should_statements,medium,rigid_rules
+"I should perform perfectly",1,should_statements,high,rigid_rules
+"I must always do my best",1,should_statements,medium,rigid_rules
+"I shouldn’t fail",1,should_statements,medium,rigid_rules
+"I must be efficient at all times",1,should_statements,medium,rigid_rules
+"I should never disappoint anyone",1,should_statements,high,rigid_rules
+"I must always succeed",1,should_statements,high,rigid_rules
+"I shouldn’t struggle",1,should_statements,medium,rigid_rules
+"I should know this already",1,should_statements,medium,rigid_rules
+"I must not fall behind",1,should_statements,medium,rigid_rules
+"I should be doing more",1,should_statements,medium,rigid_rules
+"I must stay disciplined always",1,should_statements,medium,rigid_rules
+"I shouldn’t slow down",1,should_statements,medium,rigid_rules
+"I feel like a failure, so I must be one",1,emotional_reasoning,high,negative_self_evaluation
+"I feel anxious, so this must be too hard",1,emotional_reasoning,high,negative_self_evaluation
+"I feel guilty, so I did something wrong",1,emotional_reasoning,high,negative_self_evaluation
+"I feel incompetent, so I am incompetent",1,emotional_reasoning,high,negative_self_evaluation
+"I feel overwhelmed, so I can’t handle this",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel discouraged, so there’s no point trying",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel nervous, so this will go badly",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel uneasy, so this is wrong",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel stressed, so I’m not capable",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel bad about this, so it must be bad",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel disappointed, so I failed",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel scared, so this is dangerous",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel uncomfortable, so this is a mistake",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel unsure, so I can’t do this",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel low, so nothing will work",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel tense, so this is wrong for me",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel frustrated, so I’m failing",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel weak, so I am weak",1,emotional_reasoning,high,negative_self_evaluation
+"I feel worried, so something bad will happen",1,emotional_reasoning,medium,negative_self_evaluation
+"I feel hopeless, so there’s no solution",1,emotional_reasoning,medium,negative_self_evaluation
+"If it isn’t perfect, it’s a failure",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If I’m not the best, I’m worthless",1,all_or_nothing_thinking,high,negative_self_evaluation
+"Either I succeed fully or I fail",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If I make one mistake, it’s useless",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If I can’t do this today, it’s pointless",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I don’t feel confident, I shouldn’t try",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If it isn’t clearly good, it’s bad",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I can’t do this easily, I can’t do it",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I fail once, I’ve failed completely",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If this isn’t a success, it’s a loss",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I’m not perfect, I’ve failed",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If I can’t do it right, I won’t do it",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I’m not good enough, I’m useless",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If this isn’t flawless, it’s wrong",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I can’t finish perfectly, it’s worthless",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I don’t succeed fully, it’s failure",1,all_or_nothing_thinking,high,negative_self_evaluation
+"If this isn’t excellent, it’s terrible",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I slip once, everything is ruined",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I don’t do it exactly right, it’s bad",1,all_or_nothing_thinking,medium,negative_self_evaluation
+"If I can’t do it perfectly, I shouldn’t try",1,all_or_nothing_thinking,high,negative_self_evaluation
+"I didn’t do well today, but I can improve",0,none,high,none
+"I feel nervous, but that doesn’t predict the outcome",0,none,high,none
+"I made a mistake and learned from it",0,none,high,none
+"This didn’t work, so I’ll try another approach",0,none,high,none
+"I feel disappointed, but I’ll keep going",0,none,high,none
+"I struggled today, which is part of learning",0,none,high,none
+"I didn’t meet my goal yet, but progress takes time",0,none,high,none
+"I feel anxious, but I can still prepare",0,none,high,none
+"This attempt failed, so I’ll adjust",0,none,high,none
+"I’m tired today, so I’ll rest and continue",0,none,high,none
+"The meeting was challenging, but useful",0,none,high,none
+"I didn’t succeed this time, but I gained experience",0,none,high,none
+"I feel unsure, yet I can try",0,none,high,none
+"This outcome isn’t ideal, but manageable",0,none,high,none
+"I made an error, which I can correct",0,none,high,none
+"I feel stressed, but that doesn’t mean failure",0,none,high,none
+"This is difficult, not impossible",0,none,high,none
+"I can improve with practice",0,none,high,none
+"This didn’t go as planned, but I’ll adapt",0,none,high,none
+"Today was hard, but it doesn’t define everything",0,none,high,none

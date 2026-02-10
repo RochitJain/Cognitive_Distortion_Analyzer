@@ -22,7 +22,6 @@
 
     7. Typical linguistic cues
         •	“Always,” “never,” “completely,” “totally,” “either/or,” “nothing”
-
 ⸻------------------
 
 2. Overgeneralization
@@ -49,7 +48,6 @@
 
     7. Typical linguistic cues
         •	“Every time,” “everyone,” “everything,” “never again”
-
 ⸻-------------
 
 3. Catastrophizing
@@ -76,7 +74,6 @@
 
     7. Typical linguistic cues
         •	“Disaster,” “ruined,” “end of everything,” “worst possible”
-
 ⸻
 
 4. Mind Reading
@@ -103,7 +100,6 @@
 
     7. Typical linguistic cues
         •	“They think,” “they must believe,” “everyone sees me as”
-
 ⸻---------
 
 5. Fortune Telling
@@ -130,7 +126,6 @@
 
     7. Typical linguistic cues
         •	“Will happen,” “going to,” “no chance,” “inevitable”
-
 ⸻
 
 6. Emotional Reasoning
@@ -157,7 +152,6 @@
 
     7. Typical linguistic cues
         •	“I feel like,” “because I feel,” “it feels true”
-
 ⸻
 
 7. Personalization
@@ -184,7 +178,6 @@
 
     7. Typical linguistic cues
         •	“My fault,” “because of me,” “I caused”
-
 ⸻
 
 8. Should Statements
